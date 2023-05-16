@@ -1,0 +1,13 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "cucumberautocomplete.steps": [
+        "steps/*.py",
+        "common_steps/*.py"
+    ],
+    "cucumberautocomplete.syncfeatures": "features/bcncgroup/*feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+}
